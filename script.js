@@ -1,67 +1,103 @@
 // Assignment my chars codes for specialChars, nums, lower/upper case//
-const specialCharacters = [!,@,#,
-
+const specialCharacters =[  
+'!',
+'@',
+'#',
+'%',
+'^',
+'&',
+'$',
+',',
+'*',
+'(',
+')',
+'_',
+'-',
+'+',
+'=',
+'<',
+'>',
+'?',
+' / ',
+' \ ',
+'{',
+'}',
+'[',
+']',
+':',
+';'
 ];
 
-const numCharacters = [1,2,3,,4,5,6,7,8,9,0];
+const numCharacters = [
+  '1',
+  '2',
+  '3',
+  '4',
+  '5',
+  '6',
+  '7',
+  '8',
+  '9',
+  '0'
+];
 
 const lowerCharacters = [ 
-  a,
-  b,
-  c,
-  d,
-  e,
-  f,
-  g,
-  h,
-  i,
-  j,
-  k,
-  l,
-  m,
-  n,
-  o,
-  p,
-  q,
-  r,
-  s,
-  t,
-  u,
-  v,
-  w,
-  x,
-  y,
-  z
+  'a',
+  'b',
+  'c',
+  'd',
+  'e',
+  'f',
+  'g',
+  'h',
+  'i',
+  'j',
+  'k',
+  'l',
+  'm',
+  'n',
+  'o',
+  'p',
+  'q',
+  'r',
+  's',
+  't',
+  'u',
+  'v',
+  'w',
+  'x',
+  'y',
+  'z'
 
 ];
 
 const upperCharacters = [
-  A,
-  B,
-  C,
-  D,
-  E,
-  F,
-  G,
-  H,
-  I,
-  J,
-  K,
-  L,
-  M,
-  N,
-  O,
-  P,
-  Q,
-  R,
-  S,
-  T,
-  U,
-  V,
-  W,
-  X,
-  Y,
-  Z
+  'A',
+  'B',
+  'C',
+  'D',
+  'E',
+  'F',
+  'G',
+  'H',
+  'I',
+  'J',
+  'K',
+  'L',
+  'M',
+  'N',
+  'O',
+  'P',
+  'Q',
+  'R',
+  'S',
+  'T',
+  'U',
+  'V',
+  'W',
+  'X',
+  'Y',
+  'Z'
 
 ];
 
@@ -94,9 +130,10 @@ return;
 //* Ask the user for all the characteristics of the password//
 var {lenght, lowercase, upppercase, shecialChars, numbers} = selectedOptions
 var possibleCharacters = [];
-var generatePassword = ""'
+var generatePassword = " ";
 
-// lowercase letter//
+// lowercase letter*//
+
 if (lowercase){
 possibleCharacters = possibleCharacters.concat(lowerCaseCharacters)
 }
@@ -104,7 +141,7 @@ possibleCharacters = possibleCharacters.concat(lowerCaseCharacters)
 if (upplercase){
 possibleCharacters = possibleCharacters.concat(upperCaseCharacters)
 }
-//* It should return all the secetions as an object to user//
+// It should return all the secetions as an object to user//
 
 function generatePassword(){
 
