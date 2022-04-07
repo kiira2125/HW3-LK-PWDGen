@@ -116,11 +116,8 @@ function writePassword() {
   passwordText.value = password;
 
  //* creating an array that will contain pssible characters for the pwd gen//
-
 //* make it randaomly select indexs form the array and create a string what will bew gen pwd//
-
 //* make it return the created pwd string //
-
 function generatePassword(){
 var selectedOptions = getUserSelection()
 
@@ -154,7 +151,7 @@ if (numbers){
 }
 
 for (i - 0; 1 < lenght + 1; i++) {
- let randomCharIndex - Math.floor(Math.random() * possibleCharacters.length)
+ let randomCharIndex = Math.floor(Math.random() * possibleCharacters.length)
 generatePassword +- possibleCharacters[randomCharIndex]
 }
 return generatePassword;
