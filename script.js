@@ -178,8 +178,8 @@ function getUserSelection() {
   } else if (numberOfChars < 8) {
     alert(" You need a minmum of 8 characters, please O_o!");
     return;
-  } else if (numberOfChars > 25) {
-    alert(" You may not select more than 25 characters long, please O_o! ");
+  } else if (numberOfChars > 128) {
+    alert(" You may not select more than 128characters long, please O_o! ");
     return;
   }
   //* add my let varibles for the upper,lower, special chars, and numbers//
